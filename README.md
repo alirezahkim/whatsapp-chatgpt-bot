@@ -12,7 +12,7 @@ Send WhatsApp messages to your bot, and it replies automatically using AI.
 ## ⚡ Features
 
 - Receive WhatsApp messages via Twilio Sandbox  
-- Generate AI responses with OpenAI GPT-3.5  
+- Generate AI responses with OpenAI
 - Run locally using Node.js & ngrok  
 - Easy to set up and customize  
 
