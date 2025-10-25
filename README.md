@@ -54,11 +54,10 @@ node index.js
 ngrok http 3000
 ```
 
-6.  **Update Twilio Sandbox Webhook URL**
-```bash   
-Take the HTTPS URL from ngrok and append /webhook
-Example: https://abcd1234.ngrok-free.app/webhook
-```
+6.  **Update Twilio Sandbox Webhook URL** 
+- Take the HTTPS URL from ngrok and append /webhook
+- Example: https://abcd1234.ngrok-free.app/webhook
+
 ---
 ## 💬 Usage
 - Send a WhatsApp message to your Twilio Sandbox number
