@@ -4,7 +4,7 @@
 [![OpenAI](https://img.shields.io/badge/OpenAI-API-blue)](https://platform.openai.com/)
 [![Twilio](https://img.shields.io/badge/Twilio-WhatsApp-red)](https://www.twilio.com/whatsapp)
 
-A **Node.js WhatsApp bot** using **Twilio** and **OpenAI GPT-3.5**.  
+A **Node.js WhatsApp bot** using **Twilio** and **OpenAI**.  
 Send WhatsApp messages to your bot, and it replies automatically using AI.
 
 ---
@@ -24,11 +24,15 @@ Send WhatsApp messages to your bot, and it replies automatically using AI.
 ```bash
 git clone https://github.com/alirezahkim/whatsapp-chatgpt-bot.git
 cd whatsapp-chatgpt-bot
+```
 
 2. **Install dependencies**
+```bash
 npm install
+```
 
 3.  **Configure environment variables**
+```bash
 Create a .env file (or c.env) in the root directory and add your credentials
 
 Edit c.env with your credentials:
@@ -38,20 +42,29 @@ TWILIO_AUTH_TOKEN=your_twilio_token
 TWILIO_PHONE_NUMBER=whatsapp:+14155238886
 MY_PHONE_NUMBER=your_phone_number
 PORT=3000
+```
 
 4.  **Run the server**
+```bash  
 node index.js
+```
 
 5.  **Expose your local server with ngrok**
+```bash  
 ngrok http 3000
+```
 
 6.  **Update Twilio Sandbox Webhook URL**
+```bash   
 Take the HTTPS URL from ngrok and append /webhook
 Example: https://abcd1234.ngrok-free.app/webhook
+```
+---
+## 💬 Usage
+- Send a WhatsApp message to your Twilio Sandbox number
+- The bot will reply automatically using OpenAI
 
-##💬 Usage
-Send a WhatsApp message to your Twilio Sandbox number
-The bot will reply automatically using OpenAI
+---
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
