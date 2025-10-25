@@ -32,10 +32,10 @@ npm install
 ```
 
 3.  **Configure environment variables**
-```bash
-Create a .env file (or c.env) in the root directory and add your credentials
 
-Edit c.env with your credentials:
+- Create a .env file (or c.env) in the root directory and add your credentials
+- Edit c.env with your credentials:
+```bash
 OPENAI_API_KEY=your_openai_key
 TWILIO_ACCOUNT_SID=your_twilio_sid
 TWILIO_AUTH_TOKEN=your_twilio_token
